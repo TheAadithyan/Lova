@@ -7,7 +7,7 @@
 [![](https://img.shields.io/github/issues/kevinschaich/mintable.svg)](https://github.com/kevinschaich/mintable/issues)
 [![](https://img.shields.io/github/issues-pr/kevinschaich/mintable.svg)](https://github.com/kevinschaich/mintable/pulls)
 
-[**Join our Reddit Community**](https://www.reddit.com/r/Mintable)
+[**Join our Reddit Community**](https://www.reddit.com/#)
 
 ## Quickstart
 
@@ -17,8 +17,8 @@
 2. Link your accounts and a spreadsheet to Mintable. Run these commands to walk through the setup:
 
 ```bash
-git clone https://github.com/kevinschaich/mintable.git
-cd mintable
+git clone https://github.com/theaadithyan/Lova.git
+cd lova
 yarn
 yarn setup
 ```
@@ -26,24 +26,24 @@ yarn setup
 3. After completing the setup, run the following at any time to populate updated data into your spreadsheet: 
 
 ```
-yarn mintable
+yarn Lova
 ```
 
 > **Note**: If you started using Mintable before `v1.0.0`, you can run `yarn migrate` to migrate to the new web-based configuration framework.
 
 ## Overview
 
-![Mintable](./src/static/mintable.png)
+![Lova](./src/static/mintable.png)
 
-Mintable simplifies managing your finances, for free, without ads, and without tracking your information. Here's how it works:
+Lova simplifies managing your finances, for free, without ads, and without tracking your information. Here's how it works:
 
-1. You connect your accounts and a spreadsheet to Mintable.
-1. Mintable integrates with financial institutions to automatically populate transactions in your spreadsheet.
+1. You connect your accounts and a spreadsheet to Lova.
+1. Lova integrates with financial institutions to automatically populate transactions in your spreadsheet.
 1. You can add whatever formulas, charts, or calculations you want (just like a normal spreadsheet). We also have templates to get you started.
 
 ## Features
 
-- Locally hosted, open-source, 100% free, ad-free, no personal data tracking, no data stored by Mintable on central servers
+- Locally hosted, open-source, 100% free, ad-free, no personal data tracking, no data stored by Lova on central servers
 - Integrates with your financial institutions for fully-automated spreadsheet updates
 - Web based setup wizard and configuration framework:
 
@@ -55,12 +55,12 @@ You can see a full list of options in the **[Config Docs](./docs/CONFIG.md)**.
 
 **It's not working / I'm having trouble / I need help**
 
-[File an issue](https://github.com/kevinschaich/mintable/issues) or reach out on our [Reddit community](https://www.reddit.com/r/Mintable/).
+[File an issue](https://github.com/theaadithyan/lova/issues).
 
 **How is this different from [build-your-own-mint](https://github.com/yyx990803/build-your-own-mint)?**
 
 - **[build-your-own-mint](https://github.com/yyx990803/build-your-own-mint)** is a set of scripts which solely facilitates the integration between Plaid and Google Sheets. It makes no assumptions about what you want your spreadsheet to look like, and you have to define your own logic to map transactions to spreadsheet updates.
-- **[Mintable](#)** is and end-to-end system that works out of the box. It comes with a setup wizard, a web-based configuration server, [pluggable providers](./docs/PROVIDERS.md) (you're not limited to just Plaid & Google Sheets), and a spreadsheet template.
+- **[Lova](#)** is and end-to-end system that works out of the box. It comes with a setup wizard, a web-based configuration server, [pluggable providers](./docs/PROVIDERS.md) (you're not limited to just Plaid & Google Sheets), and a spreadsheet template.
 
 **Do I have to give my data to Plaid and Google? Are there any completely self-hosted alternatives I can use?**
 
@@ -72,4 +72,4 @@ You can see a full list of options in the **[Config Docs](./docs/CONFIG.md)**.
 
 ## Credits
 
-Mintable initially started as a fork of [Evan You](https://github.com/yyx990803)'s [build-your-own-mint](https://github.com/yyx990803/build-your-own-mint).
+Lova initially started as a fork of [Evan You](https://github.com/yyx990803)'s [build-your-own-mint](https://github.com/yyx990803/build-your-own-mint).
