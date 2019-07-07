@@ -1,4 +1,4 @@
-<h4 align="center"><img width="200" src="lova.png" alt="Mintable"><h4 align="center">Roll your own ad-free Mint clone for managing personal finances using publicly available APIs.</h4><br></h4>
+<h4 align="center"><img width="200" src="https://github.com/TheAadithyan/Lova/blob/master/LOVA.png?raw=true" alt="Mintable"><h4 align="center">Roll your own ad-free Mint clone for managing personal finances using publicly available APIs.</h4><br></h4>
 
 [![](https://img.shields.io/travis/com/kevinschaich/mintable/master.svg)](https://travis-ci.com/kevinschaich/mintable)
 [![](https://img.shields.io/github/release/kevinschaich/mintable.svg)](https://github.com/kevinschaich/mintable/releases)
