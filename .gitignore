@@ -1,0 +1,10 @@
+.DS_Store
+.env
+.next
+*/.next
+mintable.config.json
+mintable.sandbox.json
+node_modules
+package-lock.json
+yarn-error.log
+yarn.lock
