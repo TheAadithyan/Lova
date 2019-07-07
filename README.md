@@ -14,7 +14,7 @@
 **Prerequisites:** `node` (tested `v11.6.0`), `yarn` (tested `v1.10.0`)
 
 1. If you plan on using Plaid to fetch account data, [sign up](https://dashboard.plaid.com/signup) for an account and [apply for the development plan](https://plaid.com/pricing/). It usually takes them 1-2 business days to approve this request.
-2. Link your accounts and a spreadsheet to Mintable. Run these commands to walk through the setup:
+2. Link your accounts and a spreadsheet to Lova. Run these commands to walk through the setup:
 
 ```bash
 git clone https://github.com/theaadithyan/Lova.git
@@ -29,7 +29,7 @@ yarn setup
 yarn Lova
 ```
 
-> **Note**: If you started using Mintable before `v1.0.0`, you can run `yarn migrate` to migrate to the new web-based configuration framework.
+> **Note**: If you started using Lova before `v1.0.0`, you can run `yarn migrate` to migrate to the new web-based configuration framework.
 
 ## Overview
 
